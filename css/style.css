@@ -1,0 +1,474 @@
+body{
+    font-family:Calibri,sans-serif;
+    font-size: 18px;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.img-fluid{
+    max-width: 100%;
+
+}
+section{
+    width: 100%;
+    float: left;
+}
+.container{
+    width: 1300px;
+    margin: auto;
+}
+.head{
+    background-color: white;
+    padding: 10px 0px;
+    box-shadow:0 2px 6px 0 rgb(0 0 0 / 12%), inset 0 -1px 0 0 #dadce0
+}
+.head1{
+    width:25% ;
+    float: left;
+}
+.head1 img{
+    width: 234px;
+    padding-left: 10px;
+}
+.head2{
+    width: 75%;
+    float: left;
+    text-align: right;
+}
+.head2 li {
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 10px;
+
+}
+.head2 img{
+padding-left: 10px;
+padding-right: 10px;
+
+}
+.text{
+    background-image: url("../images/back-image.jpg");
+    padding-top: 30px;
+    background-repeat: no-repeat;
+    
+    
+}
+.text1{
+    width: 70%;
+    float: left;
+    padding-right: 50px;
+    padding-left: 15px;
+
+}
+.text2{
+    width: 30%;
+    float: left;
+    
+}
+.text1 h1{
+    font-size: 36px;
+    padding-bottom:20px ;
+    font-weight: bold;
+}
+.text1 p{
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+.text1 h3{
+    font-size:28px ;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.text1 ul{
+    font-size:22px ;
+    line-height:30px;
+    line-height:34px ;
+    padding-bottom: 20px;
+    padding-left: 50px;
+}
+.sb{
+    background-color:#f5233e;
+    color: white;
+    size: 100px;
+    padding: 20px 30px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid  #f5233e;
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+.form-bg{
+    background-color: rgba(0,0,0,.7);
+    border-radius: 5px;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+
+    
+}
+.form-bg h3{
+    font-size: 26px;
+}
+.bt{
+    width: 100%;
+    padding:5px 10px;
+    height: 30px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    border:1px solid #ddd;
+    border-radius: 5px;
+}
+.s{
+    background-color:#f5233e;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 1px solid  #f5233e;
+    
+}
+.box{
+    background-color: white;
+    padding: 40px;
+}
+.box1{
+    width: 24.4%;
+    float: left;
+    box-shadow: 0 0 15px 1px rgb(0 0 0 / 15%);
+    padding: 10px 25px;
+    margin-right: 10px;
+}
+.box1:last-child{
+    margin-right: 0px;
+}
+
+/* .box2{
+    width: 23.5%;
+    float: left;
+    box-shadow: 0 0 15px 1px rgb(0 0 0 / 15%);
+    padding: 10px 25px;
+    margin-right: 10px;
+
+}
+.box3{
+    width: 23.5%;
+    float: left;
+    box-shadow: 0 0 15px 1px rgb(0 0 0 / 15%);
+    padding: 10px 20px;
+    margin-right: 10px;
+}.box4{
+    width: 25%;
+    float: left;
+    box-shadow: 0 0 15px 1px rgb(0 0 0 / 15%);
+    padding: 10px 25px; 
+}*/
+
+.logo{
+    width: 30%;
+    float: left;
+    width: 50px;
+    
+}
+.content{
+    width: 70%;
+    float: left;
+    text-align: center;
+    line-height: 25px;
+    
+}
+.content p{
+    font-size: 18px;
+}
+.content h4{
+    font-size: 16px;
+    font-weight: bold;
+}
+.table{
+    background-color: white;
+    padding: 30px 0px;
+}
+.table1{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.table1 h2{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+.table1 p{
+    font-size: 18px;
+    line-height: 24px;
+}
+.table2{
+    width: 100%;
+    float: left;
+    margin-top: 50px;
+
+}
+.html1{
+    width: 22.5%;
+    float: left;
+    text-align: center;
+    box-shadow: 1px 2px 6px rgb(0 0 0 / 25%);
+    margin-right: 3%;
+    padding: 20px 5px; 
+    height: 250px;
+    margin-bottom: 50px;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: rgb(245,245,245);
+    border-radius: 5px;
+    border-top: 3px solid orange;
+    
+    
+}
+.html1 img{
+    width: 75px;
+}
+.html1 h3{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.html1:nth-child(4){
+    margin-right: 0px;
+}
+.html1:last-child{
+    margin-right: 0px;
+}
+.html1:nth-child(2){
+    border-color: green;
+}
+.html1:nth-child(3){
+    border-color: red;
+}
+.html1:nth-child(4){
+    border-color:cornflowerblue;
+}
+.html1:nth-child(5){
+    border-color: blue;
+}
+.html1:nth-child(6){
+    border-color: #fe711d;
+}
+.html1:nth-child(7){
+    border-color: #1cb4c2;
+}
+.html1:nth-child(8){
+    border-color: #fea202;
+}
+.table3{
+    width: 100%;
+    float: left;
+    background-color: white;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.cover{
+    width: 100%;
+    float: left;
+    background-image: url("../images/call-to-action-bg.jpg");
+    color: white;
+    background-position: right top;
+
+    background-size:cover;
+
+}
+.bimage{
+ padding-top: 50px;
+ padding-left: 50px;
+}
+.bimage h1{
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}.bimage h3{
+    font-size: 26px;
+}
+.bimage h1 span{
+    font-size: 14px;
+}
+.bimage p{
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+.COURSE{
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: black;
+    padding: 15px 10px;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+.benifits{
+    background-color: white;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+.benifits1{
+    width: 55%;
+    float: left;
+    padding-left: 10px;
+}
+.benifits1 h1{
+    font-size: 32px;
+    padding-bottom: 30px;
+}
+.benifits1 ul{
+    font-size: 18px;
+    line-height: 28px;
+}
+.benifits2{
+    width: 45%;
+    float: left;
+    padding: 30px 50px;
+    
+}
+.careers{
+    background-color: rgb(245,245,245) ;
+    padding-top: 25px;
+    
+
+}
+.careers1{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.careers1 h2{
+    font-size: 32px;
+    padding-bottom: 15px;
+}
+.careers1 p{
+    font-size: 18px;
+    line-height: 24px;
+    padding-bottom: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+    
+}
+.careers2{
+    width: 100%;
+    float: left;
+    padding-bottom: 40px;
+}
+.careers21{
+    width: 15%;
+    float: left;
+    background-color: white;
+    box-shadow: 1px 2px 4px 6x rgba(0,0,0,0.2);
+    padding: 10px;
+    text-align: center;
+    margin-right: 2%;
+    
+
+}
+.careers21:last-child{
+    margin-right: 0px;
+}
+.student{
+    background-color: white;
+    padding:50px 30px;
+
+}
+.student1{
+text-align: center;
+}
+.student1 h2{
+    font-size: 32px;
+
+}
+.student1 p{
+    font-size: 18px;
+    line-height: 24px;
+    padding-top: 10px;
+    padding-bottom: 80px;
+}
+.student2{
+    width: 100%;
+    float: left;
+}
+.student21{
+    width: 22.5%;
+    float: left;
+    box-shadow: 1px 2px 6px rgb(154 154 154 / 25%);
+    padding: 40px 10px;
+    border:1px solid #ddd;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    height: 300px;
+    margin-right: 3%;
+}
+.student21 p{
+    font-size: 18px;
+    line-height: 24px;
+    padding:15px 3px;
+
+}
+.student21 h6{
+    font-size: 14px;
+    text-align: right;
+   
+    padding-top: 10px;
+}
+.student21:last-child{
+    margin-right: 0px;
+
+}
+.visit{
+    width: 100%;
+    float: left;
+    background-color: rgb(245,245,245) ;
+    text-align: center;
+    padding: 30px 0px;
+}
+.visit h2{
+    font-size: 32px;
+    padding-bottom: 20px;
+}
+.visit p{
+    font-size: 18px;
+    line-height: 24px;
+}
+.end{
+    background-color:#f5233e ;
+    padding: 15px 30px;
+    border: 1px solid #f5233e;
+    color: white;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.last{
+    background-color: rgb(37,37,37);
+    padding: 20px 0px;
+    color: white;
+}
+.last h6{
+    width: 50%;
+    float: left;
+    font-size: 18px;
+    padding-left: 20px;
+}
+.last p{
+    width: 50%;
+    float: left;
+    font-size: 18px;
+    padding-right: 20px;
+    text-align: right;
+}
+
+
